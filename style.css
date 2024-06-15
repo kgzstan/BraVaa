@@ -10,10 +10,10 @@
 #header{
     background: #8dd8e058;
     padding: 20px 0;
-    z-index: 99;
-    position: fixed;
-    right: 0;
-    left: 0;
+   z-index: 99;
+   right: 0;
+   left: 0;
+   
 }
 a{
     text-decoration: none;
@@ -86,4 +86,151 @@ nav a{
    font-size: 18px;
    color: #636465;
    font-weight: 400;
+}
+#section1{
+    padding: 100px 0;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head h1{
+    font-family: Playfair Display;
+font-size: 68px;
+font-weight: 700;
+line-height: 81.6px;
+text-align: left;
+}
+.head b{
+    color: #0095A4;
+}
+.head__text{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.head__text p{
+    width: 494px;
+    font-size: 19px;
+    color: #122237;
+    font-weight: 400;
+}
+.head__text button{
+    background: #0095A4;
+    height: 45px;
+    width: 25%;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+.head__text button:hover{
+    background: yellow;
+    border: 1px solid red;
+    color: black;
+}
+.head__img{
+    padding-top: 100px;
+    position: relative;
+}
+.img1{
+    width: 100%;
+}
+.smalhome{
+    width: 100%;
+}
+.head__box{
+    position: absolute;
+    bottom: 30%;
+    right: 79%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    width: 22%;
+    height: 181px;
+    padding: 10px;
+    box-shadow: 8px 8px 49px 0px #19394640;
+    border-radius: 10px;
+}
+.head__price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.head__box h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0C1623;
+}
+.head__box h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3E5658B2;
+}
+.head__box button{
+    width: 92px;
+    height: 28px;
+    background: #E8EFF4;
+    font-size: 14px;
+    font-weight: 500;
+    color: #36C6CF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.head__box button:hover{
+    background: yellow;
+    border: 1px solid red;
+    color: black;
+}
+.head__box h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #36C6CF;
+}
+.head__jack{
+   position: absolute;
+   left: 78%;
+   bottom: 65%;
+    padding: 20px 20px;
+    width: 20%;
+    height: 189px;
+    background: white;
+    box-shadow: 8px 8px 49px 0px #19394640;
+    border-radius: 10px;
+}
+.img__jack{
+    position: absolute;
+    right: -13%;
+    top: -15%;
+}
+.head__jack h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #021C1C;
+    padding-top: 15px;
+}
+.Jack__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+}
+.Jack__text h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3E5658B2;
+}
+.Jack__text h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #36C6CF;
+}
+.head__jack p{
+    color: #122237;
+    font-size: 16px;
+    font-weight: 400;
 }
