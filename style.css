@@ -368,3 +368,61 @@ padding: 200px 0 100px 0;
 .img__crl{
    padding: 24px;
 }
+#section4{
+    padding-top: 50px;
+}
+.Floor{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.Floor h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0C1623;
+}
+.Floor b{
+    color: #0095A4;
+}
+.Floor p{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #101C26CC;
+}
+.Plans{
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Plans__box{
+    border-radius: 10px;
+    width: 29.38%;
+    height: 446px;
+    background: #FFFFFF;
+    box-shadow: 6px 8px 40px 0px #A4A6A840;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Plans__img{
+    border-radius:10px;
+    width: 100%;
+}
+.Plans__box h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #0C1623;
+}
+.Plans__box p{
+     font-size: 22px;
+    font-weight: 400;
+    color: #3B464F;
+}
+.Plans__box a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0997A4;
+}
