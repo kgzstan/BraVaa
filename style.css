@@ -6,6 +6,7 @@
     max-width: 1400px;
     margin: 0 auto;
     width: 90%;
+
 }
 #header{
     background: #8dd8e058;
@@ -343,7 +344,7 @@ padding: 200px 0 100px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 49px;
 }
 .Amenites__box{
     display: flex;
@@ -355,6 +356,7 @@ padding: 200px 0 100px 0;
     height: 334px;
     box-shadow: 6px 8px 46px 0px #82ACA240;
     background: white;
+    border-radius: 10px;
 }
 .Amenites__box h1{
     font-size: 24px;
@@ -425,4 +427,77 @@ padding: 200px 0 100px 0;
     font-size: 16px;
     font-weight: 500;
     color: #0997A4;
+}
+#section5{
+    padding-top: 100px;
+}
+.img__pos{
+    position: relative;
+   
+}
+.Our{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.Our h1{
+    font-family: Playfair Display;
+font-size: 48px;
+font-weight: 700;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.Our b{
+ color: #0095A4;
+}
+.Our P{
+    font-size: 18px;
+    font-weight: 400;
+    color: #101C26CC;
+}
+.Gallery__img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   gap: 46%;
+}
+.Gallery__img2{
+    position: relative;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 52%;
+}
+.Gallery__img21{
+    margin: 0 73% 0 0;
+ 
+}
+.Gallery__img22{
+    position: absolute;
+   left: 70%;
+}
+.box__img1{
+    position: absolute;
+    margin: -48% 0 33% -15%
+}
+.box__img2{
+    position: absolute;
+    margin: 0 0 70% 35%
+}
+.box__img3{
+    margin: -29% 0 0 89%;
+}
+.box__img4{
+    position: absolute;
+    margin: 0 0 82% 204%;
+}
+.box__img5{
+    margin: -77% 0 0 54%
+}
+.box__img6{
+    position: absolute;
+    left: 137%;
+    top: 44%;
 }
