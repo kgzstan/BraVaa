@@ -611,3 +611,120 @@ text-align: center;
     font-weight: 400;
     color: #6E7189;
 }
+#section7{
+    background: #E8EFF4;
+    margin-top: 100px;
+}
+.Ask{
+    display: flex;
+   align-items: baseline;
+    justify-content: space-between;
+}
+.Ask__text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+.Ask h1{
+    font-family: Playfair Display;
+font-size: 48px;
+font-weight: 600;
+text-align: left;
+width: 411px;
+}
+.Ask b{
+    color: #0095A4;
+}
+.Ask p{
+    width: 410px;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #101C26CC;
+}
+#accordion{
+    margin: 100px auto;
+    width: 600px;
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+#accordion li label{
+font-size: 18px;
+font-weight: 600;
+text-align: left;
+color: #0C1623;
+display: flex;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+}
+#accordion li label span{
+    transform: rotate(90deg);
+   font-size: 22px;
+} 
+
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .content{
+    padding: o 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transform: max-heght 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content{
+  max-height: 400px;
+}
+#Out{
+    background: #0C1623;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+   gap: 15px;
+    flex-direction: column;
+}
+#Out h1{
+    font-family: Playfair Display;
+font-size: 48px;
+font-weight: 600;
+color: #FFFFFF;
+}
+#Out b{
+    color: #0095A4;
+}
+#Out p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+}
+#Out button{
+    width: 10%;
+    height: 54px;
+    background: #0095A4;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+}
+#Out button:hover{
+    background: yellow;
+    border: 1px solid brown;
+    color: #36C6CF;
+}
