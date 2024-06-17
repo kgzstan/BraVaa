@@ -501,3 +501,113 @@ text-align: center;
     left: 137%;
     top: 44%;
 }
+#section6{
+    margin-top: 500px;
+    background: url("img/./house\ 1.png") no-repeat center/cover ;
+}
+.Miss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.Miss__text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 150px;
+}
+.Miss__text h1{
+    font-family: Playfair Display;
+font-size: 48px;
+font-weight: 600;
+color: rgb(114, 97, 97);
+}
+.Miss__text b{
+    color: #0095A4;
+}
+.Miss__text p{
+    width: 433px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #5b3232;
+}
+.Miss__home{
+    margin-top: 10px;
+   width: 510px;
+   height: 575px;
+   background: white;
+   border-top-left-radius: 250px;
+   border-top-right-radius: 250px;
+   display: flex;
+   align-items: center;
+   padding-top: 50px;
+   flex-direction: column;
+}
+.Miss__home h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0C1623;
+  padding-bottom: 50PX;
+}
+.home__box1{
+    display: flex;
+    gap: 65px;
+    padding-top: 24px;
+}
+.home__box1 h2{
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C1623;
+}
+.home__box1 input{
+    border: 0.57px solid #76989A;
+    border-radius: 2px;
+    width: 192px;
+    height: 46px;
+    background: #F4FDFE;
+    font-family: Playfair Display;
+font-size: 18px;
+font-weight: 400;
+color: #101C2699;
+text-align: center;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+.help b{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0C1623;
+}
+#text{
+    background: #F4FDFE;
+    border: 0.57px solid #76989A;
+    border-radius: 2px;
+    width: 404px;
+    height: 150px;
+}
+.help button{
+    height: 45.67px;
+    width: 100%;
+    border-radius: 50px;
+    background: #F4FDFE;
+    border: 0.57px solid #76989A;
+    cursor: pointer;
+}
+.help button:hover{
+    background: yellow;
+    border: 1px solid black;
+    color: red;
+}
+.help p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #6E7189;
+}
