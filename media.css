@@ -1,0 +1,261 @@
+@media(max-width: 1240px){
+    .why__box1 {
+        height: 100px;
+        width: 110px;
+    }
+   
+    .why__box2 {
+        height: 100px;
+        width: 110px;
+    }
+}
+@media(max-width: 1139px){
+    
+    .home__box1 {
+        gap: 16px;
+        width: 85%;
+        padding: 0 10px;
+    }
+    .why__bar {
+        margin-top: 50px;
+        display: flex;
+        flex-flow: wrap;
+    }
+    .head__text {
+        padding-bottom: 75px;
+}
+}
+@media(max-width: 992px){
+    .why p {
+        font-size: 10px;
+    }
+    .why__bar {
+        flex-flow: column;
+    }
+    .why__box2 {
+       margin: 20px 0;
+    }
+    .why__img img:nth-child(2) {
+        left: 95%;
+        top: 39%;
+    }
+    .smalhome {
+        width: 110%;
+    }
+    .head__price {
+        gap: 10px;
+    
+}
+    .burger1{
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+    .span__bar{
+        display: none;
+    }
+    .head h1 {
+        font-size: 52px;
+}
+.head__text p {
+    font-size: 16px;
+}
+.head__jack {
+    bottom: 47%;
+}
+#foot {
+    gap: 22px;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.Grow {
+    padding-right: 60px;
+}
+}
+@media(max-width: 800px){
+    .why__img img:nth-child(2) {
+        left: 110%;
+        top: 56%;
+    }
+    .smalhome {
+        width: 100%;
+        height: 100%;
+    }
+    .head__box {
+        flex-direction: column;
+        height: 290px;
+        bottom: 10%;
+    }
+    .head__jack p {
+        font-size: 12px;
+    }
+    .head {
+        gap: 50px;
+        flex-direction: column;
+}
+    .head h1{
+        font-size: 53px;
+        text-align: center;
+    }
+    .head__text {
+        align-items: center;
+    }
+}
+@media(max-width: 768px){
+    .Miss {
+        flex-direction: column;
+    }
+    .Miss__text {
+      
+        align-items: center;
+        text-align: center;
+    }
+    .why {
+        flex-direction: column;
+        }
+        .why__bar {
+            flex-flow: row;
+        }
+    .why p {
+        font-size: 23px;
+        text-align: center;
+    }
+    .why__img img:nth-child(2) {
+        left: 126%;
+        top: 78%;
+    }
+    .Amenites__box {
+        width: 200px;
+        height: 225px;
+}
+#foot h1 {
+    font-size: 19px;
+}
+#foot a {
+    font-size: 10px;
+}
+.Amenites{
+    flex-flow: wrap;
+}
+.main h5 {
+    padding-bottom: 400px;
+}
+.Ask h1 {
+    font-size: 40px;
+}
+.Ask {
+    flex-direction: column;
+}
+.Ask h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 58px;
+}
+.Ask__p{
+   
+    text-align: center;
+}
+#accordion li {
+    width: 70%;
+}
+#foot {
+    gap: 53px;
+    flex-direction: column;
+}
+}
+@media(max-width: 576px){
+    #accordion {
+      width: 100%;
+    }
+    .Miss__home {
+        width: 100%;
+    }
+    .Amenites{
+        gap: 10px;
+    }
+    .Amenites__box {
+        width: 155px;
+        height: 198px;
+    }
+    .why__img img:nth-child(1){
+        width: 200%;
+    }
+    .why__img img:nth-child(2) {
+        width: 75%;
+        left: 60%;
+    }
+    .why__img {
+        margin-left: 0%;
+    }
+    .head__text p {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .head__img {
+        padding: 100px 0 300px 0;
+    }
+    .head__jack {
+        bottom: 8%;
+         left: 57%;
+    }  
+    .Jack__text {
+        flex-direction: column;
+        gap: 10px;
+}
+
+.head__jack p {
+    font-size: 9px;
+}
+.head__box {
+    right: 74%;
+    bottom: 8%;
+}
+.home__box1 {
+    flex-direction: column;
+    width: 77%;
+}
+.Miss__home{
+    height: 730px;
+}
+#Out h1 {
+    font-size: 40px;
+}
+}
+
+@media(max-width: 450px){
+    .Amenites {
+        gap: 15px;
+    }
+    .Amenites__box {
+        width: 136px;
+        height: 188px;
+    }
+
+    .head__jack p {
+        font-size: 6px;
+    }
+    .Plans__box h1 {
+        font-size: 25px;
+    }
+    .Plans__box p {
+        font-size: 18px;
+    }
+    #text {
+        width: 92%;
+    }
+   
+}
+@media(max-width: 370px){
+    .why__bar {
+        flex-direction: column;
+    }
+    .footer {
+        margin: 0 0 0 50px;
+    }
+}
