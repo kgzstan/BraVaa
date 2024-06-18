@@ -749,3 +749,122 @@ font-size: 16px;
 font-weight: 500;
 text-align: center;
 }
+#footer{
+    background: #0C1623 ;
+    padding: 100px 0 50px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__box{
+    display: flex;
+  
+    flex-direction: column;
+    gap: 30px;
+}
+.footer__box h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.footer__box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFFE5;
+    width: 318px;
+}
+.img__link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img__side{
+    height: 45px;
+    width: 15%;
+    border-radius: 50%;
+    background: #0095A4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Grow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 110px;
+}
+.Grow h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 267px;
+    text-align: center;
+    margin-bottom:  10px;
+}
+.Grow__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+}
+.Grow__btn button:nth-child(1){
+    background: #0095A4;
+    width: 33%;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Grow__btn button:hover:nth-child(1){
+    background: yellow;
+    color: #36C6CF;
+    border: 1px solid 0095A4;
+}
+.Grow__btn button:nth-child(2){
+    width: 35%;
+    height: 40px;
+   background: #021C1C;
+   border: 1px solid #0395A4;
+   border-radius:40px ;
+   color: #0395A4;
+   font-size: 15px;
+   font-weight: 400;
+}
+.Grow__btn button:hover:nth-child(2){
+    background: bisque;
+    border: 1px solid black;
+    color: white;
+}
+.About{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 15px;
+}
+.About h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.About li{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.li{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.last{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 200px 0 0 0;
+}
